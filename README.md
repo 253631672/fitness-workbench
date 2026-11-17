@@ -1,5 +1,7 @@
 # 健身工作台
 
+[![在线预览](https://img.shields.io/badge/在线预览-打开-3B6FD4)](https://253631672.github.io/fitness-workbench/) [![单文件](https://img.shields.io/badge/单文件-HTML-2B2B2B)](fitness-workbench.html) [![离线可用](https://img.shields.io/badge/离线-可用-4C8C4A)](#) [![License](https://img.shields.io/badge/license-MIT-8A6A3B)](LICENSE)
+
 三分化推 / 拉 / 腿，先选今天练什么，队列会自己往后顺延。
 
 单文件 HTML，双击就能用，离线可用。
@@ -48,6 +50,8 @@ fitness-workbench.html   程序本体，40KB
 screenshots/             三张界面截图
 LICENSE
 ```
+
+如果这个工具帮你省了点时间，点个 Star 支持一下，也方便后面找到它。
 
 ## 许可
 
