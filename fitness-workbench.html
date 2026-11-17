@@ -356,39 +356,37 @@ const TYPE_META={
 };
 const PLANS={
   '推':[
-    {n:'杠铃卧推',s:4,r:'8-10',w:60},
-    {n:'上斜哑铃卧推',s:3,r:'10-12',w:22},
-    {n:'坐姿哑铃推肩',s:3,r:'10-12',w:16},
-    {n:'哑铃侧平举',s:3,r:'12-15',w:8},
-    {n:'绳索下压',s:3,r:'12',w:25},
+    {n:'杠铃卧推',s:4,r:'8-10',w:40},
+    {n:'上斜哑铃卧推',s:3,r:'10-12',w:16},
+    {n:'坐姿哑铃推肩',s:3,r:'10-12',w:12},
+    {n:'哑铃侧平举',s:3,r:'12-15',w:6},
+    {n:'绳索下压',s:3,r:'12',w:20},
     {n:'悬垂举腿',s:3,r:'12-15',w:0},
-    {n:'绳索跪姿卷腹',s:3,r:'15',w:20}
+    {n:'绳索跪姿卷腹',s:3,r:'15',w:15}
   ],
   '拉':[
     {n:'引体向上',s:4,r:'6-10',w:0},
-    {n:'杠铃划船',s:4,r:'8-10',w:50},
-    {n:'高位下拉',s:3,r:'10-12',w:45},
-    {n:'坐姿绳索划船',s:3,r:'12',w:40},
-    {n:'面拉',s:3,r:'15',w:20},
-    {n:'哑铃弯举',s:3,r:'12',w:10},
+    {n:'杠铃划船',s:4,r:'8-10',w:40},
+    {n:'高位下拉',s:3,r:'10-12',w:40},
+    {n:'坐姿绳索划船',s:3,r:'12',w:35},
+    {n:'面拉',s:3,r:'15',w:15},
+    {n:'哑铃弯举',s:3,r:'12',w:8},
     {n:'悬垂举腿',s:3,r:'12-15',w:0}
   ],
   '腿':[
-    {n:'杠铃深蹲',s:4,r:'8-10',w:70},
-    {n:'罗马尼亚硬拉',s:4,r:'10',w:60},
-    {n:'腿举',s:3,r:'12-15',w:100},
-    {n:'腿屈伸',s:3,r:'15',w:40},
-    {n:'坐姿腿弯举',s:3,r:'15',w:35},
-    {n:'站姿提踵',s:4,r:'15-20',w:30},
+    {n:'杠铃深蹲',s:4,r:'8-10',w:60},
+    {n:'罗马尼亚硬拉',s:4,r:'10',w:50},
+    {n:'腿举',s:3,r:'12-15',w:80},
+    {n:'腿屈伸',s:3,r:'15',w:30},
+    {n:'坐姿腿弯举',s:3,r:'15',w:25},
+    {n:'站姿提踵',s:4,r:'15-20',w:20},
     {n:'悬垂举腿',s:3,r:'12-15',w:0}
   ]
 };
 const SUPPS=[
+  {n:'蛋白粉',d:'30g',t:'练后'},
   {n:'肌酸',d:'5g',t:'早餐后'},
-  {n:'分离乳清',d:'30g',t:'练后'},
-  {n:'复合维生素',d:'1粒',t:'早餐后'},
-  {n:'维生素D3',d:'1粒',t:'午餐后'},
-  {n:'鱼油',d:'2粒',t:'晚餐后'}
+  {n:'复合维生素',d:'1粒',t:'早餐后'}
 ];
 const QUEUE=['推','拉','腿'];
 
@@ -414,14 +412,14 @@ function demoData(){
     todayType:'', today:{},
     sessions,
     body:[
-      {date:ymd(new Date(t.getTime()-20*DAY)),weight:69.5,bf:18.7,muscle:54.5},
-      {date:ymd(new Date(t.getTime()-13*DAY)),weight:70.2,bf:18.2,muscle:55.0},
-      {date:ymd(new Date(t.getTime()-6*DAY)),weight:70.8,bf:17.8,muscle:55.4},
-      {date:ymd(new Date(t.getTime()-1*DAY)),weight:70.8,bf:17.6,muscle:55.7}
+      {date:ymd(new Date(t.getTime()-20*DAY)),weight:75.0,bf:22.4,muscle:52.0},
+      {date:ymd(new Date(t.getTime()-13*DAY)),weight:75.4,bf:22.0,muscle:52.2},
+      {date:ymd(new Date(t.getTime()-6*DAY)),weight:74.8,bf:21.7,muscle:52.5},
+      {date:ymd(new Date(t.getTime()-1*DAY)),weight:75.2,bf:21.5,muscle:52.6}
     ],
     measures:[
-      {date:ymd(new Date(t.getTime()-24*DAY)),chest:96,waist:80,arm:33,thigh:56},
-      {date:ymd(new Date(t.getTime()-10*DAY)),chest:97.5,waist:79,arm:33.5,thigh:57}
+      {date:ymd(new Date(t.getTime()-24*DAY)),chest:100,waist:84,arm:35,thigh:58},
+      {date:ymd(new Date(t.getTime()-10*DAY)),chest:100.5,waist:83.5,arm:35.2,thigh:58.3}
     ],
     supps:{},
     startDate:ymd(new Date(t.getTime()-27*DAY))
